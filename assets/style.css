@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Spotify;
+    src: url(./Fonte/GothamMedium_1.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 200px;
+    background-color: #301824;
+    color: white;
+    font-family: Spotify;
+    row-gap: 50px;
+}
+.conteudo{
+    display: flex;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25em;
+    font-family: Spotify;
+}
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+   
+}
+body{
+    /* background-color: ; */
+    background-image: linear-gradient(to top,black, #5b2e45);
+    height: 100vh;
+}
+h1{
+    font-family: Spotify;
+    color: white;
+    text-align: center;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: column;
+}
+
+.winding-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1em;
+    gap: 0.5em;
+}
+.winding img{
+    max-width: 16em;
+    height: 11em;
+}
+
+.made-grid {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding: 1em;
+    gap: 0.5em;
+    /* margin-left: 5.5em; */
+}
+.made img{
+    max-width: 16em;
+    height: 11em;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+header > img{
+    height: 3em;
+    width: 3em;
+    align-items: center;
+    
+}
+footer{
+    background-color: #282828;
+    /* background-color: white; */
+    color: white   ;
+    display: flex;
+    justify-content: center;
+}
+.musica > img{
+    height: 2em;
+    width: 2em;
+    color: white;
+}
+.abaixo{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-top: 500px;
+}
+.abaixo > img{
+    height: 0.1em;
+    width: 0.1em;
+}
